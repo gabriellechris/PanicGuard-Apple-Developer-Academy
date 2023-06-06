@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97659CE82A1685160017A335 /* Nano2_HallelujahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659CE72A1685160017A335 /* Nano2_HallelujahApp.swift */; };
+		97659CEA2A1685160017A335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659CE92A1685160017A335 /* ContentView.swift */; };
+		97659CEC2A1685170017A335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97659CEB2A1685170017A335 /* Assets.xcassets */; };
+		97659CEF2A1685170017A335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97659CEE2A1685170017A335 /* Preview Assets.xcassets */; };
+		97659CF52A1685170017A335 /* Nano2-Hallelujah Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97659CF42A1685170017A335 /* Nano2-Hallelujah Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97659CFA2A1685170017A335 /* Nano2_HallelujahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659CF92A1685170017A335 /* Nano2_HallelujahApp.swift */; };
+		97659CFC2A1685170017A335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659CFB2A1685170017A335 /* ContentView.swift */; };
+		97659CFE2A1685180017A335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97659CFD2A1685180017A335 /* Assets.xcassets */; };
+		97659D012A1685180017A335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97659D002A1685180017A335 /* Preview Assets.xcassets */; };
+		97659D0C2A1685990017A335 /* Confirmation_Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D0B2A1685990017A335 /* Confirmation_Modal.swift */; };
+		97659D0E2A1685CF0017A335 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D0D2A1685CF0017A335 /* Utils.swift */; };
+		97659D102A1685EF0017A335 /* Exercises_Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D0F2A1685EF0017A335 /* Exercises_Tutorial.swift */; };
+		97659D162A174B080017A335 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D152A174B080017A335 /* CheckListView.swift */; };
+		97659D1C2A175E1E0017A335 /* Devices_Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D1B2A175E1E0017A335 /* Devices_Integration.swift */; };
+		97659D1E2A176A560017A335 /* ProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D1D2A176A560017A335 /* ProgramViewModel.swift */; };
+		97659D202A1770BC0017A335 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D1F2A1770BC0017A335 /* InterfaceController.swift */; };
+		97659D292A1A12DF0017A335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97659D282A1A12DF0017A335 /* AppDelegate.swift */; };
+		978765912A1B767D00F59337 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978765902A1B767D00F59337 /* HealthKitManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97659CF62A1685170017A335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97659CDC2A1685160017A335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97659CF32A1685170017A335;
+			remoteInfo = "Nano2-Hallelujah Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97659D072A1685180017A335 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97659CF52A1685170017A335 /* Nano2-Hallelujah Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97659CE42A1685160017A335 /* Nano2-Hallelujah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano2-Hallelujah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97659CE72A1685160017A335 /* Nano2_HallelujahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_HallelujahApp.swift; sourceTree = "<group>"; };
+		97659CE92A1685160017A335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97659CEB2A1685170017A335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97659CEE2A1685170017A335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97659CF42A1685170017A335 /* Nano2-Hallelujah Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano2-Hallelujah Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97659CF92A1685170017A335 /* Nano2_HallelujahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2_HallelujahApp.swift; sourceTree = "<group>"; };
+		97659CFB2A1685170017A335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97659CFD2A1685180017A335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97659D002A1685180017A335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97659D0B2A1685990017A335 /* Confirmation_Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmation_Modal.swift; sourceTree = "<group>"; };
+		97659D0D2A1685CF0017A335 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		97659D0F2A1685EF0017A335 /* Exercises_Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises_Tutorial.swift; sourceTree = "<group>"; };
+		97659D152A174B080017A335 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		97659D1B2A175E1E0017A335 /* Devices_Integration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices_Integration.swift; sourceTree = "<group>"; };
+		97659D1D2A176A560017A335 /* ProgramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModel.swift; sourceTree = "<group>"; };
+		97659D1F2A1770BC0017A335 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		97659D242A17CADF0017A335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97659D252A17CEFF0017A335 /* Nano2-Hallelujah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nano2-Hallelujah.entitlements"; sourceTree = "<group>"; };
+		97659D282A1A12DF0017A335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		978765902A1B767D00F59337 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97659CE12A1685160017A335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97659CF12A1685170017A335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97659CDB2A1685160017A335 = {
+			isa = PBXGroup;
+			children = (
+				97659CE62A1685160017A335 /* Nano2-Hallelujah */,
+				97659CF82A1685170017A335 /* Nano2-Hallelujah Watch App */,
+				97659CE52A1685160017A335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97659CE52A1685160017A335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97659CE42A1685160017A335 /* Nano2-Hallelujah.app */,
+				97659CF42A1685170017A335 /* Nano2-Hallelujah Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97659CE62A1685160017A335 /* Nano2-Hallelujah */ = {
+			isa = PBXGroup;
+			children = (
+				97659D252A17CEFF0017A335 /* Nano2-Hallelujah.entitlements */,
+				97659D242A17CADF0017A335 /* Info.plist */,
+				97659CE72A1685160017A335 /* Nano2_HallelujahApp.swift */,
+				97659D112A16874A0017A335 /* View */,
+				97659D122A16875E0017A335 /* View Model */,
+				97659CEB2A1685170017A335 /* Assets.xcassets */,
+				97659CED2A1685170017A335 /* Preview Content */,
+			);
+			path = "Nano2-Hallelujah";
+			sourceTree = "<group>";
+		};
+		97659CED2A1685170017A335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97659CEE2A1685170017A335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97659CF82A1685170017A335 /* Nano2-Hallelujah Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				97659CF92A1685170017A335 /* Nano2_HallelujahApp.swift */,
+				97659CFB2A1685170017A335 /* ContentView.swift */,
+				97659D212A1770BF0017A335 /* View Model */,
+				97659CFD2A1685180017A335 /* Assets.xcassets */,
+				97659CFF2A1685180017A335 /* Preview Content */,
+			);
+			path = "Nano2-Hallelujah Watch App";
+			sourceTree = "<group>";
+		};
+		97659CFF2A1685180017A335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97659D002A1685180017A335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97659D112A16874A0017A335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97659CE92A1685160017A335 /* ContentView.swift */,
+				97659D0B2A1685990017A335 /* Confirmation_Modal.swift */,
+				97659D0F2A1685EF0017A335 /* Exercises_Tutorial.swift */,
+				97659D0D2A1685CF0017A335 /* Utils.swift */,
+				97659D152A174B080017A335 /* CheckListView.swift */,
+				97659D282A1A12DF0017A335 /* AppDelegate.swift */,
+				978765902A1B767D00F59337 /* HealthKitManager.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97659D122A16875E0017A335 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				97659D1B2A175E1E0017A335 /* Devices_Integration.swift */,
+				97659D1D2A176A560017A335 /* ProgramViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		97659D212A1770BF0017A335 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				97659D1F2A1770BC0017A335 /* InterfaceController.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97659CE32A1685160017A335 /* Nano2-Hallelujah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97659D082A1685180017A335 /* Build configuration list for PBXNativeTarget "Nano2-Hallelujah" */;
+			buildPhases = (
+				97659CE02A1685160017A335 /* Sources */,
+				97659CE12A1685160017A335 /* Frameworks */,
+				97659CE22A1685160017A335 /* Resources */,
+				97659D072A1685180017A335 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97659CF72A1685170017A335 /* PBXTargetDependency */,
+			);
+			name = "Nano2-Hallelujah";
+			productName = "Nano2-Hallelujah";
+			productReference = 97659CE42A1685160017A335 /* Nano2-Hallelujah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97659CF32A1685170017A335 /* Nano2-Hallelujah Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97659D042A1685180017A335 /* Build configuration list for PBXNativeTarget "Nano2-Hallelujah Watch App" */;
+			buildPhases = (
+				97659CF02A1685170017A335 /* Sources */,
+				97659CF12A1685170017A335 /* Frameworks */,
+				97659CF22A1685170017A335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano2-Hallelujah Watch App";
+			productName = "Nano2-Hallelujah Watch App";
+			productReference = 97659CF42A1685170017A335 /* Nano2-Hallelujah Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97659CDC2A1685160017A335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					97659CE32A1685160017A335 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					97659CF32A1685170017A335 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 97659CDF2A1685160017A335 /* Build configuration list for PBXProject "Nano2-Hallelujah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97659CDB2A1685160017A335;
+			productRefGroup = 97659CE52A1685160017A335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97659CE32A1685160017A335 /* Nano2-Hallelujah */,
+				97659CF32A1685170017A335 /* Nano2-Hallelujah Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97659CE22A1685160017A335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97659CEF2A1685170017A335 /* Preview Assets.xcassets in Resources */,
+				97659CEC2A1685170017A335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97659CF22A1685170017A335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97659D012A1685180017A335 /* Preview Assets.xcassets in Resources */,
+				97659CFE2A1685180017A335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97659CE02A1685160017A335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97659CEA2A1685160017A335 /* ContentView.swift in Sources */,
+				97659D102A1685EF0017A335 /* Exercises_Tutorial.swift in Sources */,
+				97659D162A174B080017A335 /* CheckListView.swift in Sources */,
+				97659D292A1A12DF0017A335 /* AppDelegate.swift in Sources */,
+				97659D1C2A175E1E0017A335 /* Devices_Integration.swift in Sources */,
+				97659D0C2A1685990017A335 /* Confirmation_Modal.swift in Sources */,
+				97659CE82A1685160017A335 /* Nano2_HallelujahApp.swift in Sources */,
+				97659D0E2A1685CF0017A335 /* Utils.swift in Sources */,
+				978765912A1B767D00F59337 /* HealthKitManager.swift in Sources */,
+				97659D1E2A176A560017A335 /* ProgramViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97659CF02A1685170017A335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97659D202A1770BC0017A335 /* InterfaceController.swift in Sources */,
+				97659CFC2A1685170017A335 /* ContentView.swift in Sources */,
+				97659CFA2A1685170017A335 /* Nano2_HallelujahApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97659CF72A1685170017A335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97659CF32A1685170017A335 /* Nano2-Hallelujah Watch App */;
+			targetProxy = 97659CF62A1685170017A335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97659D022A1685180017A335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97659D032A1685180017A335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		97659D052A1685180017A335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2-Hallelujah Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CA297FTBQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nano2-Hallelujah";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.myself.Nano2-Hallelujah";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.Nano2-Hallelujah.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		97659D062A1685180017A335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2-Hallelujah Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CA297FTBQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nano2-Hallelujah";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.myself.Nano2-Hallelujah";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.Nano2-Hallelujah.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		97659D092A1685180017A335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nano2-Hallelujah/Nano2-Hallelujah.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2-Hallelujah/Preview Content\"";
+				DEVELOPMENT_TEAM = CA297FTBQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano2-Hallelujah/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PanicGuard;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app request to retrieve your Health Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.Nano2-Hallelujah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		97659D0A2A1685180017A335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nano2-Hallelujah/Nano2-Hallelujah.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano2-Hallelujah/Preview Content\"";
+				DEVELOPMENT_TEAM = CA297FTBQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano2-Hallelujah/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PanicGuard;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app request to retrieve your Health Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myself.Nano2-Hallelujah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97659CDF2A1685160017A335 /* Build configuration list for PBXProject "Nano2-Hallelujah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97659D022A1685180017A335 /* Debug */,
+				97659D032A1685180017A335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97659D042A1685180017A335 /* Build configuration list for PBXNativeTarget "Nano2-Hallelujah Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97659D052A1685180017A335 /* Debug */,
+				97659D062A1685180017A335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97659D082A1685180017A335 /* Build configuration list for PBXNativeTarget "Nano2-Hallelujah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97659D092A1685180017A335 /* Debug */,
+				97659D0A2A1685180017A335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97659CDC2A1685160017A335 /* Project object */;
+}
